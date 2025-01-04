@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monstar</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body>
+    <header>
+        <h2 class="text-6xl">Mealing</h2>
+    </header>
+    <main class="container mx-auto mt-8">
+        <!-- Search Result -->
+        <section class="bg-gray-100 p-4 m-4">
+            <input id="search-field" type="text" placeholder="Search..." class="input input-bordered w-full max-w-2xl" />
+            <button onclick="handleSearch()" class="btn btn-outline btn-error">Search</button>
+        </section>
+        <section>
+            <div id="food-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/meal.js"></script>
+</body>
+</html>
