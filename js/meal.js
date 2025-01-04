@@ -26,9 +26,9 @@ const displayFoods = foods =>{
         alt="Shoes" />
         </figure>
         <div class="card-body">
-            <h2 class="card-title">${food.strCategory}</h2>
+            <h2 class="card-title">${food.strMeal}</h2>
             <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-primary">Details</button>
             </div>
         </div>
         `;
